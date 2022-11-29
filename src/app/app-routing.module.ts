@@ -32,7 +32,7 @@ const app_routes: Routes = [
     { path: 'informacion/editedu/:id', component: FormeducationeditComponent, canActivate: [AuthGuard]},
     { path: 'skills/newskill', component: FormskillsComponent, canActivate: [AuthGuard]},
     { path: 'skills/editskill/:id', component: FormskilleditComponent, canActivate: [AuthGuard]},
-    { path: '**', redirectTo: '', pathMatch: 'full'},
+    { path: '**', redirectTo: 'inicio', pathMatch: 'full'},
 
 ];
 
