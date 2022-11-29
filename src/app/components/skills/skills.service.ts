@@ -11,7 +11,7 @@ import swal from 'sweetalert2';
 
 export class SkillsService {
   
-  private urlEndPoint = 'https://guarded-refuge-65976.herokuapp.com/api/skills';
+  private urlEndPoint = 'https://backend-ap-mari3004.koyeb.app/api/skills';
 
   private httpHeaders = new HttpHeaders({'Content-Type': 'application/json'});
 

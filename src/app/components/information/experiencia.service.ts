@@ -11,7 +11,7 @@ import swal from 'sweetalert2';
 
 export class ExperienciaService {
   
-  private urlEndPoint = 'https://guarded-refuge-65976.herokuapp.com/api/experiencia';
+  private urlEndPoint = 'https://backend-ap-mari3004.koyeb.app/api/experiencia';
 
   private httpHeaders = new HttpHeaders({'Content-Type': 'application/json'});
 
