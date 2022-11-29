@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="foto text-center col-sm-12 col-md-6 col-lg-6">
+            <img class="perfil" 
+            src="../../../assets/images/me.jpg"
+            alt="perfil">
+        </div>
+
+        <div class="texto text-center col-sm-11 col-md-5 col-lg-5" id="name">
+            <h2 class="align-center">Bienvenidos a mi porfolio<br></h2>
+            <h2 *ngFor="let persona of personas">{{persona.nombre}}  {{persona.apellido}}
+            <button type="button" name="editar" [routerLink]="['/inicio/edittitulo', persona.id]" class="edit" ><i class="bi-pencil-square" style="font-size:20px"></i></button>
+            </h2>
+            
+        </div>
+        
+    </div>
+</div>

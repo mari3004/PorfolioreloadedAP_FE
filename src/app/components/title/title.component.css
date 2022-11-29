@@ -1,0 +1,48 @@
+.container-fluid{
+    border: 5px solid #99A3A4;
+    margin: 0px;
+    padding: 35px;
+    background-image: url(../../../assets/images/fondo1.jpg);
+
+    
+}
+.perfil{
+    width: 350px;
+    height:350px;
+    border-radius:170px;
+    border:10px solid #99A3A4;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    font-style: bold;
+    color: white;
+    padding: 30px;
+    line-height: 1em;
+    word-spacing: 0.25em;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    letter-spacing:2px;
+    font-style: bold;
+    color: white;
+    padding: 30px;
+    line-height: 1em;
+    word-spacing: 0.25em;
+}
+h4{
+    color: white;
+    padding: 10px;
+}
+.edit{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 500px;
+    border: transparent;
+    background-color: transparent !important;
+    text-align: right !important;
+}
+i{
+    color: white;
+}

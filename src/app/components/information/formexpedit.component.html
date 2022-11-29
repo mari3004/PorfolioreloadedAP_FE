@@ -1,0 +1,77 @@
+<div class="window-notice">
+  <div class="content">
+    <div class="card-header text-center col-sm-12 col-md-12 col-lg-12"><h2>{{titulo}}</h2></div>
+    <div class="card-body">
+
+      <form>
+        <div class="form-group row">
+          <label for="empresa" class="col-form-label col-sm-2">Empresa</label>
+          <div class="col-sm-6">
+            <input
+              type="text"
+              class="form-control"
+              [(ngModel)]="experiencia.empresa"
+              name="empresa"
+              placeholder="Empresa"
+            />
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="rol" class="col-form-label col-sm-2">Rol</label>
+          <div class="col-sm-6">
+            <input
+              type="text"
+              class="form-control"
+              [(ngModel)]="experiencia.rol"
+              name="rol"
+              placeholder="Escribe tu rol, puesto"/>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="ingreso" class="col-form-label col-sm-2">Mes y año de ingreso</label>
+          <div class="col-sm-3">
+            <input
+              type="text"
+              class="form-control"
+              [(ngModel)]="experiencia.fechadeingreso"
+              name="ingreso"
+              placeholder="Mes en letras y año en numero"/>
+          </div>
+          <label for="egreso" class="col-form-label col-sm-2">Mes y año de egreso</label>
+          <div class="col-sm-3">
+            <input
+              type="text"
+              class="form-control"
+              [(ngModel)]="experiencia.fechadeegreso"
+              name="egreso"
+              placeholder="Mes en letras y año en numero"/>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="tareas" class="col-form-label col-sm-2">Tareas</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea1" name="tarea1" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea2" name="tarea2" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea3" name="tarea3" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea4" name="tarea4" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea5" name="tarea5" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea6" name="tarea6" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea7" name="tarea7" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea8" name="tarea8" placeholder="Tarea"/>
+            <input type="text" class="form-control" [(ngModel)]="experiencia.tarea9" name="tarea9" placeholder="Tarea"/>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="col-sm-12">
+           <button class="btn btn-secondary" role="button" (click)="updateexp()">Modificar</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

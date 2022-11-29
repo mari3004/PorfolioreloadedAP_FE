@@ -1,0 +1,50 @@
+*{
+    background-color: #2D066B;
+    color: #99A3A4;
+    margin: 0px;
+    
+}
+.info {
+    border: 5px solid;
+    border-color: #99A3A4;
+    padding: 2px 2px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+h2,h3, h4{
+    padding: 10px;
+    display: inline-block;
+}
+tr{
+    padding-left: 6px;
+    padding-bottom: 1em;
+    
+}
+#logoemp{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    padding-right:3px;
+    border-radius:30px;
+}
+ul{
+    padding-bottom: 15px;
+}
+
+.edit, .new, .delete{
+    margin: 0px;
+    padding: 5px;
+    border: #99A3A4;
+    border-color: #99A3A4;
+    background-color: transparent !important;
+    text-align: right !important;
+}
+i{
+    color: #99A3A4;
+    border-color: #99A3A4;
+    border-radius:2px;
+}

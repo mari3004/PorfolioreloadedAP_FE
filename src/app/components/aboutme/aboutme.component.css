@@ -1,0 +1,39 @@
+*{
+    background-color: #2D066B;
+    color: #99A3A4;
+    margin: 0px;
+    padding: 0px;
+}
+.aboutme{
+    border: 5px solid;
+    border-color: #99A3A4;
+    padding: 2em;
+}
+h2{
+    text-align: center;
+    padding: 2px;
+    text-decoration: underline;
+
+}
+p{
+    padding: 2px 2px;
+    text-align: center;
+}
+#logoedit{
+    height:155px;
+    width:155px;
+    background-color: green;
+}
+.edit{
+    margin: 0px;
+    padding: 5px;
+    border: #99A3A4;
+    border-color: #99A3A4;
+    background-color: transparent !important;
+    text-align: right !important;
+}
+i{
+    color: #99A3A4;
+    border-color: #99A3A4;
+    border-radius:2px;
+}
