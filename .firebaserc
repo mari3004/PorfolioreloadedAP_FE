@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "frontend-portfolioap"
-  }
+    "default": "frontend-portfolioap",
+    "FE": "frontend-portfolioap"
+  },
+  "targets": {},
+  "etags": {}
 }
